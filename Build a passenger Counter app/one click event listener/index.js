@@ -5,7 +5,9 @@ function increment(){
 }
 let saveEl = document.getElementById('save-el')
 function save(){
+    document.getElementById("count-el").innerText=0
     saveEl.textContent += count +" - "
+    count = 0
     
 }
 
